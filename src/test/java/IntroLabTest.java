@@ -8,6 +8,7 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
+
 public class IntroLabTest {
     @Before
     public void setUp() {
@@ -17,7 +18,7 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 10000)
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
@@ -30,4 +31,16 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 10000)
+    public void testlekevi15() {
+        String expected = "Howdy! My name is Kevin Le! " +
+                "I like cats more than dogs! When I grow up, I will adopt a cat! :)";
+        String actual = IntroLab.lekevi15();
+        assertEquals(expected, actual);
+    }
+
+
+
+
 }
