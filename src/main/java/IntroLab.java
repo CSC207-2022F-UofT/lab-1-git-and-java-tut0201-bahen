@@ -50,9 +50,15 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+
     public static String zhoudav6() {
         return printLabMessage("Hi", "David Zhou", true,
                 "Welcome to CSC207!");
+
+
+    public static String lekevi15(){
+        return printLabMessage("Howdy", "Kevin Le", true, "When I grow up, I will adopt a cat! :)");
+
     }
 
 
@@ -65,7 +71,12 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
         System.out.println(zhoudav6());
+
+        System.out.println(lekevi15());
+
+
 
     }
 
