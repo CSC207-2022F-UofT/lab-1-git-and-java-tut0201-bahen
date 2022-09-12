@@ -55,6 +55,7 @@ public class IntroLab {
         return printLabMessage("Hi", "David Zhou", true,
                 "Welcome to CSC207!");
 
+    }
 
     public static String lekevi15(){
         return printLabMessage("Howdy", "Kevin Le", true, "When I grow up, I will adopt a cat! :)");
