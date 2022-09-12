@@ -33,12 +33,22 @@ public class IntroLabTest {
      */
 
     @Test(timeout = 10000)
+    public void testZhouDav6() {
+        String expected = "Hi! My name is David Zhou! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.zhoudav6();
+        assertEquals(expected, actual);
+    }
+
+
+    @Test(timeout = 10000)
     public void testlekevi15() {
         String expected = "Howdy! My name is Kevin Le! " +
                 "I like cats more than dogs! When I grow up, I will adopt a cat! :)";
         String actual = IntroLab.lekevi15();
         assertEquals(expected, actual);
     }
+
 
 
 
