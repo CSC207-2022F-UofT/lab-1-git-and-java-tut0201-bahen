@@ -41,11 +41,17 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+
     /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
+                "Welcome to CSC207!");
+    }
+
+    public static String zhoudav6() {
+        return printLabMessage("Hi", "David Zhou", true,
                 "Welcome to CSC207!");
     }
 
@@ -59,7 +65,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(zhoudav6());
 
     }
 
